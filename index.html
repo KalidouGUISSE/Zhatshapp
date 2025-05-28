@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link href="./dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css">
+  </head>
+
+  <body class="flex justify-center items-center h-screen ">
+    <div class="h-5/6 w-5/6 flex fixed shadow-xl ">
+      <section class="bg-card1 h-full w-24 flex justify-center items-center" >
+        <div class="h-1/2 w-full flex flex-col gap-3 p-1 items-center justify-center">
+          <div class=" card1-style "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 2048 2048"><path fill="currentColor" d="M0 128h2048v1408H731l-475 475v-475H0zm1920 1280V256H128v1152h256v293l293-293z"/></svg><span>Messages</span></div>
+          <div id="groupes" class=" card1-style "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M16 17v2H2v-2s0-4 7-4s7 4 7 4m-3.5-9.5A3.5 3.5 0 1 0 9 11a3.5 3.5 0 0 0 3.5-3.5m3.44 5.5A5.32 5.32 0 0 1 18 17v2h4v-2s0-3.63-6.06-4M15 4a3.4 3.4 0 0 0-1.93.59a5 5 0 0 1 0 5.82A3.4 3.4 0 0 0 15 11a3.5 3.5 0 0 0 0-7"/></svg><span>Groupes</span></div>
+          <div id="Diffussion" class=" card1-style "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"  viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M249.4 25.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3L269.3 96 416 96c53 0 96 43 96 96l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-17.7-14.3-32-32-32l-146.7 0 25.4 25.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0l-80-80c-12.5-12.5-12.5-32.8 0-45.3l80-80zm13.3 256l80 80c12.5 12.5 12.5 32.8 0 45.3l-80 80c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 416 96 416c-17.7 0-32 14.3-32 32l0 32c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-32c0-53 43-96 96-96l146.7 0-25.4-25.4c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0zM384 384a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM64 192A64 64 0 1 1 64 64a64 64 0 1 1 0 128z"/></svg><span>Diffussion</span></div>
+          <div class=" card1-style "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M2 5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2m17 4c.513 0 .936.463.993 1.06l.007.14v7.2c0 1.917-1.249 3.484-2.824 3.594L17 21H7c-1.598 0-2.904-1.499-2.995-3.388L4 17.4v-7.2C4 9.537 4.448 9 5 9zm-5 2h-4l-.117.007a1 1 0 0 0 0 1.986L10 13h4l.117-.007a1 1 0 0 0 0-1.986z"/></svg><span>Archive</span></div>
+          <div id="nouveauContacte" class=" card1-style "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M8 1.75a.75.75 0 0 1 .75.75v4.75h4.75a.75.75 0 0 1 0 1.5H8.75v4.75a.75.75 0 0 1-1.5 0V8.75H2.5a.75.75 0 0 1 0-1.5h4.75V2.5A.75.75 0 0 1 8 1.75" clip-rule="evenodd"/></svg><span>Nouveau </span></div>
+        </div>
+      </section>
+
+      <section class="bg-card2 h-full w-1/2">
+        <div class="h-1/6 flex flex-col items-center gap-1 p-1 pr-2 pl-2">
+
+          <div class="h-12 w-full flex justify-between">
+            <div class="h-12 p-2 pl-0">Discussions</div>
+            <!-- <div class="bg-blue-500 h-12 w-1/4"></div> -->
+          </div>
+          
+          <input id="contactSaisie" class="w-full h-12 rounded-full pl-3" type="text" placeholder="Rechercher"/>
+
+          <!-- <div></div> -->
+        </div>
+        <!-- <div class=" containerSection h-5/6 pr-2 pl-2 gap-1 flex flex-col "> -->
+        <div class="container-section h-5/6 pr-2 pl-2 gap-4 flex flex-col max-w-4xl mx-auto">
+
+            <div id="formulaire" class="section-spacing">
+              <div class="bg-gray-50 p-4 rounded-lg border border-yellow-500 mb-4 shadow-lg">
+                <h3 class="text-lg font-medium mb-3 text-yellow-800">Ajouter un Contacte</h3>
+              
+                <form id="contactForm" class="space-y-3">
+                  <div>
+                    <label id="formLabel1" for="nom" class="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+                    <input
+                      type="text"
+                      id="nomDuContact"
+                      name="nomDuContact"
+                      placeholder="Entrez le nomDuContact"
+                      class="w-full h-10 px-3 border border-yellow-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                    />
+                  </div>
+                  <div>
+                    <label id="formLabel2" for="numero" class="block text-sm font-medium text-gray-700 mb-1">Numero</label>
+                    <input
+                      type="tel"
+                      id="numeroDuContact"
+                      name="sousTitreGroupe"
+                      placeholder="Entrez un sous titre"
+                      class="w-full h-10 px-3 border border-yellow-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                    />
+                  </div>
+              
+                  <button
+                    id="ajouterContact"
+                    type="button"
+                    class="w-full bg-yellow-600 text-white py-2 px-4 rounded-md hover:bg-yellow-700 transition duration-200"
+                  >
+                    Creer un Contacte
+                  </button>
+                </form>
+              </div>
+            </div>
+            <!-- le contenue des goupe -->
+          <div  id="parantlisteDeMesGoupe"  class="section-spacing">
+
+            <button
+            vIf="true"
+            vShow="true"
+            id="creerGroupe"
+            type="button"
+            class="w-24 bg-yellow-600 text-white py-2 px-4 rounded-md hover:bg-yellow-700 transition duration-200"
+            >
+              +
+            </button>
+            <div id="listeDeMesGoupe" class="space-y-3">
+
+              <div class="w-full h-20 flex justify-between items-center">
+                <div class="border w-16 h-16 rounded-full"></div>
+                <div class="w-2/3 h-14">
+                  <h4 class="text-xl">uegw</h4>
+                  <span>hvad</span>
+                </div>
+                <div class="w-16 h-14 text-green-700">
+                  <div>date</div>
+                  <span class="text-2xl">.</span>
+                </div>
+              </div>
+            
+              <div class="w-full h-20 flex justify-between items-center">
+                <div class="border w-16 h-16 rounded-full"></div>
+                <div class="w-2/3 h-14">
+                  <h4 class="text-xl">uegw</h4>
+                  <span>hvad</span>
+                </div>
+                <div class="w-16 h-14 text-green-700">
+                  <div>date</div>
+                  <span class="text-2xl">.</span>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+
+          <!-- le contenue liste contacte -->
+          <div id="listDesContactes" class="section-spacing">
+
+            <div class=" contact ">
+              <label for="check1">lkwfnp</label>
+              <input type="checkbox" class="" id="check1" name="check1"/>
+            </div>
+
+            <div class=" contact ">
+              <label for="check1" >lkwfnp</label>
+              <input type="checkbox" class="" id="check1" name="check1"/>
+            </div>
+
+          </div>
+            <!-- le contenue pour les contacte -->
+          <div id="mesContactes" class="section-spacing">
+            <!-- les groupe -->
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class=" h-full w-full flex flex-col">
+        <div class="bg-hard border flex flex-[1] w-full justify-end border-b-2 border-r-0 border-t-0 border-l-0 border-white">
+          <div class="w-64 gap-2 h-20 flex items-center justify-end ">
+            <div class=" card3-style text-orange-500 border border-orange-500 "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="-2 -5 24 24"><path fill="currentColor" d="m14.414 7l1.414-1.414a1 1 0 0 0-1.414-1.414L13 5.586l-1.414-1.414a1 1 0 1 0-1.414 1.414L11.586 7l-1.414 1.414a1 1 0 1 0 1.414 1.414L13 8.414l1.414 1.414a1 1 0 1 0 1.414-1.414zM7.828 0H18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H7.828a2 2 0 0 1-1.414-.586L.707 7.707a1 1 0 0 1 0-1.414L6.414.586A2 2 0 0 1 7.828 0"/></svg></div>
+            <div id="btnPourArchiver" class=" card3-style text-gray-500 border border-gray-500 "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M2 5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2m17 4c.513 0 .936.463.993 1.06l.007.14v7.2c0 1.917-1.249 3.484-2.824 3.594L17 21H7c-1.598 0-2.904-1.499-2.995-3.388L4 17.4v-7.2C4 9.537 4.448 9 5 9zm-5 2h-4l-.117.007a1 1 0 0 0 0 1.986L10 13h4l.117-.007a1 1 0 0 0 0-1.986z"/></svg></div>
+            <div class=" card3-style border border-black"><div class="w-4 h-4 bg-black"></div></div>
+            <div class=" card3-style border border-red-700 text-red-600 "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6zM19 4h-3.5l-1-1h-5l-1 1H5v2h14z"/></svg></div>
+          </div>
+        </div>
+
+        <div class="bg-card3 border flex-[14] w-full"></div>
+
+        <div class="bg-card2 flex-[1] w-full p-4">
+            <div class="w-full h-12 p-2 flex items-center rounded-full "> 
+              <input type="text" placeholder="Entrer un message" class="w-full bg-[#F2EFF0] h-12 rounded-full pl-3 shadow-lg"/>
+              <div class="bg-green-500 w-12 h-12 rounded-full flex justify-center items-center text-white"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="currentColor"  d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></div>
+            </div>
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+  
+</html>
+

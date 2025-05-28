@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card1-style {
+        @apply size-20 border border-yellow-500 flex flex-col items-center justify-center rounded-lg
+    }
+    .card3-style{
+        @apply w-12 h-12 rounded-full flex flex-col items-center justify-center 
+    }
+
+    .contact{
+        @apply w-full h-12 flex items-center rounded-full p-2 shadow-md border-b-2 p-2 border-yellow-600
+    }
+    
+    .contact > label{
+        @apply w-full h-12 flex items-center 
+    }
+
+    .containerSection > div{
+        @apply w-full h-12 flex flex-col justify-between items-center 
+    }
+}
