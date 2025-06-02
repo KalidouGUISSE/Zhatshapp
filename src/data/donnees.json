@@ -1,0 +1,54 @@
+{
+    "tabGroupes": [
+        {
+            "id": 101,
+            "nom": "Famille",
+            "sousTitre": "Parents et cousins",
+            "membres": [
+            { "id": 1, "nom": "Amadou Diallo", "numero": "771234567", "statut": "admin" },
+            { "id": 2, "nom": "Awa Ba", "numero": "778765432" },
+            { "id": 3, "nom": "Moussa Sow", "numero": "770112233" },
+            { "id": 4, "nom": "Diallo", "numero": "774434567" }
+            ],
+            "chatMessages": [
+            { "id": 2, "auteur": "Bob", "texte": "Je vais bien, merci ! Et toi ?" },
+            { "id": 3, "auteur": "Alice", "texte": "Super, merci !" }
+            ]
+        },
+        {
+            "id": 102,
+            "nom": "Travail",
+            "sousTitre": "Collègues bureau",
+            "membres": [
+                { "id": 4, "nom": "Fatou Ndoye", "numero": "761234567" },
+                { "id": 5, "nom": "Cheikh Fall", "numero": "765432198" },
+                { "id": 1, "nom": "Amadou Diallo", "numero": "774234567", "statut": "admin" },
+                { "id": 4, "nom": "Awa Ba", "numero": "773765432" },
+                { "id": 5, "nom": "Sow", "numero": "770112243" }
+            ],
+            "chatMessages": [
+                { "id": 1, "auteur": "Alice", "texte": "Salut, comment ça va ?" }
+            ]
+        }
+    ],
+    "contacts": [
+        {
+            "id": 1,
+            "nom": "Ali Ndiaye",
+            "numero": "770000000",
+            "archive": false,
+            "chatMessages": [
+                { "id": 1, "auteur": "Alice", "texte": "Salut, comment ça va ?" }
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "Fatou Diop",
+            "numero": "780000000",
+            "archive": false,
+            "chatMessages": [
+                { "id": 1, "auteur": "Alice", "texte": "Salut, comment ça va ?" }
+            ]
+        }
+    ]
+}
