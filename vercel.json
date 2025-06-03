@@ -1,23 +1,6 @@
 {
-  "rewrites": [
-    {
-      "source": "/h.html",
-      "destination": "/h.html"
-    },
-    {
-      "source": "/h",
-      "destination": "/h.html"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
-        }
-      ]
-    }
-  ]
-}
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+  }
+  
